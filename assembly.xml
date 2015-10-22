@@ -1,0 +1,18 @@
+<assembly>
+	<formats>
+		<format>zip</format>
+	</formats>
+	<includeBaseDirectory>false</includeBaseDirectory>
+	<files>
+		<file>
+			<source>./pom.xml</source>
+		</file>
+	</files>
+	<dependencySets>
+		<dependencySet>
+			<includes></includes>
+			<excludes></excludes>
+			<useTransitiveDependencies>false</useTransitiveDependencies>
+		</dependencySet>
+	</dependencySets>
+</assembly>
